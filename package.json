@@ -1,0 +1,17 @@
+{
+  "name": "kobibotnpm",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000K\u0000o\u0000b\u0000i\u0000B\u0000o\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
