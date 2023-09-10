@@ -1,11 +1,10 @@
-module.exports = {
-    name: 'ligma',
-    description: 'joe has ligma',
-    //devOnly: Boolean,
-    //testOnly: Boolean,
-    //options: Object[],
+const { SlashCommandBuilder } = require("@discordjs/builders")
 
-    callback: (client, interaction) => {
-        interaction.reply(`ligmaballs`);
+module.exports = {
+    data: new SlashCommandBuilder()
+            .setName("ligma")
+            .setDescription("ligma shit"),
+    async execute(interaction) {
+        await interaction.reply("hurensohn")
     }
 }
